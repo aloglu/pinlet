@@ -6,7 +6,7 @@ Pinlet is a Safari extension for the bookmarking service Pinboard. I've created 
 
 # Installation
 
-I don't have a developer account with Apple, so I couldn't build this extension properly. That being said, the process is still somewhat straight forward, especially for someone who's savvy enough to look for Pinboard extensions on Github. Here's the step by step guide:
+I don't have a developer account with Apple, so I couldn't build this extension properly¹. That being said, the process is still somewhat straight forward, especially for someone who's savvy enough to look for Pinboard extensions on Github. Here's the step by step guide:
 
 1. Safari > Preferences > Advanced > Select "Show develop menu in menu bar".
 2. From Develop in the menu bar, click on "Show Extension Builder".
@@ -14,6 +14,8 @@ I don't have a developer account with Apple, so I couldn't build this extension 
 4. Locate the folder you've just installed/cloned into your computer and click "Select".
 5. You've added the extension to the Extension Builder. Now, to install, select on "Install" on the top right hand side. You'll be prompted to enter your password. Enter it and voila.
 6. Existing tabs have to be reloaded for the extension to work.
+
+*¹ This also means you have to re-install the extension every time you relaunch Safari. I rarely close my browser, so this is a non-issue for me but I recognize that it'd be a deal breaker for most people.*
 
 # To-do
 
