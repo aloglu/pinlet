@@ -1,5 +1,7 @@
 # Pinlet
 
+![Pinlet](https://raw.githubusercontent.com/aloglu/Pinlet/master/Pinlet.png)
+
 Pinlet is a Safari extension for the bookmarking service Pinboard. I've created this out of frustration with 3rd party apps that often fail to connect Pinboards API. Pinboard has a bookmarklet for easy bookmarking, but as its name suggests, that's a bookmark that lives on a bookmark bar. Since I don't want to clutter my Safari UI with another bar that's only going to have one item, I thought making an extension with the same purpose would do the trick, and it did.
 
 # Installation
