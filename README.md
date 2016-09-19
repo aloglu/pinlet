@@ -23,4 +23,4 @@ Right now, when you click on the extension's icon, a new page opens in the same 
 
 # Acknowledgements
 
-GitHub user [ArthurHammer](https://github.com/arthurhammer) has a [similar extension](https://github.com/arthurhammer/pinboard-safariextension) to mine (functionally the same) and I've barrowed a lot of his code to make this. So my thanks to him, as well as other random strangers on the internet whose code I've used to make this.
+GitHub user [ArthurHammer](https://github.com/arthurhammer) has a [similar extension](https://github.com/arthurhammer/pinboard-safariextension) (functionally the same) and I've barrowed a lot of his code to make this extension. So my thanks to him, as well as other random strangers on the internet whose code I've used.
