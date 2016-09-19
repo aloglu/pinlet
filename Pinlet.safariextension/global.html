@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" charset="utf-8">
+	safari.application.addEventListener("command", function(event) {
+		if (event.command === "Pinlet") {
+		var settings = {quoteSelection: safari.extension.settings.quoteSelection};
+		event.target.browserWindow.activeTab.page.dispatchMessage("Pinlet", settings);
+		}
+	}, false);
+
+	safari.application.addEventListener("validate", function(event) {
+		if (event.command === "Pinlet") {
+		event.target.disabled = ! safari.application.activeBrowserWindow.activeTab.url;
+		}
+	}, false);
+
+	safari.application.addEventListener("command", performCommand, true);
+	safari.application.addEventListener("validate", validateCommand, true);
+</script>
+</head>
+	<body>
+	</body>
+</html>
