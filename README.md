@@ -16,7 +16,7 @@ I don't have a developer account with Apple, so I wasn't able to build this exte
 6. You've added the extension to the Extension Builder. Click on "Install". You'll be prompted to enter your password
 7. You have to reload current tabs to make the extension work.
 
-*¹ This also means you have to reinstall the extension every time you relaunch Safari. I rarely close my browser, so this is a non-issue for me but I recognize that it'd be a deal breaker for most people. I can't fix this unless I [pay](https://www.macrumors.com/2015/06/10/new-safari-extensions-gallery-fee/) Apple $100 annually.*
+*¹ This also means you have to reinstall the extension every time you relaunch Safari. I rarely close my browser, so this is a non-issue for me but I recognize that it'd be a deal breaker for most people. Unfortunately, I can't fix this unless I [pay Apple $100 annually](https://www.macrumors.com/2015/06/10/new-safari-extensions-gallery-fee/).*
 
 # To-do
 
