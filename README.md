@@ -21,7 +21,7 @@ I don't have a developer account with Apple, so I wasn't able to build this exte
 
 # To-do
 
-Right now, when you click on the extension's icon, a new page opens in the same tab as the website you're trying to save. I'd like to change this to a [popover](https://developer.apple.com/library/content/documentation/Tools/Conceptual/SafariExtensionGuide/AddingPopovers/AddingPopovers.html) but I'm usually out of my depth with this type of trickery, so I'll need to look at this again in the future when I have more time.
+Right now, when you use the extension, a new page opens in the same tab as the website you're trying to save. I'd like to change this to a [popover](https://developer.apple.com/library/content/documentation/Tools/Conceptual/SafariExtensionGuide/AddingPopovers/AddingPopovers.html) but I'm out of my depth with this type of trickery, so I'll need to look at this again in the future when I have more time.
 
 # Acknowledgements
 
