@@ -10,13 +10,13 @@ I don't have a developer account with Apple, so I wasn't able to build this exte
 
 1. Clone the repository.
 2. Safari > Preferences > Advanced > Select "Show develop menu in menu bar"
-3. From "Develop" in the menu bar, click on "Show Extension Builder"
-4. "Extension Builder" window will open. Click on "+", then "Add Extension..."
+3. From the "Develop" menu, click on "Show Extension Builder"
+4. Extension Builder window will open. Click on "+", then "Add Extension..."
 5. Locate the folder of the repository, then click on "Select"
-6. You've added the extension to the Extension Builder. Now to install, click on "Install". You'll be prompted to enter your password
-7. You have to reload open tabs in order for the extension to work.
+6. You've added the extension to the Extension Builder. Click on "Install". You'll be prompted to enter your password
+7. You have to reload current tabs to make the extension work.
 
-*¹ This also means you have to re-install the extension every time you relaunch Safari. I rarely close my browser, so this is a non-issue for me but I recognize that it'd be a deal breaker for most people.*
+*¹ This also means you have to reinstall the extension every time you relaunch Safari. I rarely close my browser, so this is a non-issue for me but I recognize that it'd be a deal breaker for most people. I can't fix this unless I [pay](https://www.macrumors.com/2015/06/10/new-safari-extensions-gallery-fee/) Apple $100 annually.*
 
 # To-do
 
