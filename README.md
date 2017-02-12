@@ -2,7 +2,7 @@
 
 ![Pinlet](https://raw.githubusercontent.com/aloglu/Pinlet/master/Pinlet.png)
 
-Pinlet is a Safari extension for the bookmark service, Pinboard. I've created this extension out of frustration with the 3rd party apps that often fail to establish a connection to Pinboard's API.
+Pinlet is a Safari extension for the bookmarking service Pinboard. I've created this extension out of frustration with the 3rd party apps that often fail to establish a connection to Pinboard's API.
 
 # Installation
 
