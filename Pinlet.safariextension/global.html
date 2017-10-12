@@ -4,19 +4,22 @@
 		<script>
 			safari.application.addEventListener( "command", function( event ) {
 				if( event.command === "Pinlet" ) {
-					var settings = { quoteSelection: safari.extension.settings.quoteSelection };
-					event.target.browserWindow.activeTab.page.dispatchMessage( "Pinlet", settings );
+					var tab = event.target.browserWindow.activeTab;
+					
+					event.target.popover.contentWindow.populateForm( {
+						url: tab.url,
+						title: tab.title
+					} );
+					
+					event.target.showPopover();
 				}
 			}, false );
 		
 			safari.application.addEventListener( "validate", function( event ) {
 				if( event.command === "Pinlet" ) {
-					event.target.disabled = !safari.application.activeBrowserWindow.activeTab.url;
+					event.target.disabled = !event.target.browserWindow.activeTab.url;
 				}
 			}, false );
-		
-			safari.application.addEventListener( "command", performCommand, true );
-			safari.application.addEventListener( "validate", validateCommand, true );
 		</script>
 	</head>
 	<body></body>
