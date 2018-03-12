@@ -1,0 +1,61 @@
+* {
+	-webkit-box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	-webkit-user-select: none;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: .5em;
+	font-family: "Helvetica Neue";
+	font-size: 13px;
+	line-height: 1em;
+}
+
+form {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	display: block;
+}
+
+label + label {
+	margin-top: .5em;
+}
+
+input[type="text"], textarea, button {
+	display: block;
+	font-size: inherit;
+	margin: 0;
+}
+
+input[type="text"], textarea {
+	width: 100%;
+	margin-top: .25em;
+}
+
+textarea {
+	resize: vertical;
+}
+
+main {
+	flex: 1;
+}
+
+footer {
+	flex: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+button {
+	flex: none;
+}
