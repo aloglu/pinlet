@@ -15,7 +15,6 @@ I don't have a developer account with Apple, so I wasn't able to build this exte
 5. Locate the folder of the repository, then click on `Select`
 6. Click on "Install" and enter your password
 7. Once you've installed the extension, go to the `Extensions` tab in `Preferences` and enter your Pinboard API token, which can be found [here](https://pinboard.in/settings/password)
-8. Done.
 
 **Note:** You'll need to reload your open tabs to make the extension work.
 
